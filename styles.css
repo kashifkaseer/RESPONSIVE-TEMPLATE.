@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(images/1x1.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.front{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #464646;
+    text-align: center;
+    padding: 20px 20px;
+    color: cadetblue;
+        
+
+}
+header h1{
+    position: absolute;
+    top: 240px;
+    left: 30px;
+background-color: teal;
+    padding: 10px 10px;
+    color: #464646;
+}
+nav{
+    position: sticky;
+    top: 58px;
+    padding: 20px 20px;
+    background-color: green;
+    text-align: center;
+    
+}
+nav a{
+    padding: 0 70px;
+    text-decoration: none;
+}
+
+section{
+ 
+}
+section div{
+    text-align: center;
+    background-color: turquoise;
+
+}
+section div h1{
+    padding: 30px 0px;
+    font-weight: bolder;
+    
+}
+section div p{
+    padding: 40px;
+    line-height: 2em;
+}
+
+img{
+    max-width: 40%;
+    width: 1200px;
+    height: 50vh;
+    padding: 0 5%;
+    
+   
+}
+.imges{
+    text-align: center;
+    padding-top: 15px;
+}
+.article{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.div{
+    border: 1px solid green;
+    padding: 30px;
+    margin: 20px;
+    box-sizing: border-box;
+}
